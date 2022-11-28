@@ -1,0 +1,220 @@
+{
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.fontSize": 26,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Operator Mono",
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"terminal.integrated.fontSize": 22,
+	"prettier.tabWidth": 4,
+	"cSpell.enabledLanguageIds": [
+		"html",
+		"css",
+		"javascript",
+		"javascriptreact",
+		"json",
+		"plaintext",
+		"scss",
+		"vue"
+	],
+	"editor.tokenColorCustomizations": {
+		"[Monokai Pro]": {
+			"textMateRules": [
+				{
+					"scope": "punctuation.definition.tag",
+					"settings": {
+						"foreground": "#89ddff"
+					}
+				},
+				{
+					"scope": "support.class.component.js",
+					"settings": {
+						"foreground": "#ecc48d"
+					}
+				},
+				{
+					"scope": "entity.name.tag.js.jsx support.class.component.js.jsx",
+					"settings": {
+						"foreground": "#ecc48d"
+					}
+				}
+			]
+		},
+		"[Community Material Theme Darker High Contrast]": {
+			"textMateRules": [
+				{
+					"scope": [
+						"string.quoted.double.js",
+						"string.template",
+						"string.quoted.single.js"
+					],
+					"settings": {
+						"foreground": "#ECC48D"
+					}
+				},
+				{
+					"scope": [
+						"variable.other.constant",
+						"entity.name.function",
+						"constant.numeric",
+						"constant.language.null.js",
+						"constant.language"
+					],
+					"settings": {
+						"foreground": "#AB96F2"
+					}
+				},
+				{
+					"scope": "storage.type",
+					"settings": {
+						"foreground": "#78DCE8",
+						"fontStyle": "italic"
+					}
+				},
+				{
+					"scope": [
+						"entity.other.attribute-name.class.css",
+						"support.function",
+						"entity.name.function"
+					],
+					"settings": {
+						"foreground": "#A9DC76"
+					}
+				},
+				{
+					"scope": "support.type.property-name.css",
+					"settings": {
+						"foreground": "#FCFCFA"
+					}
+				},
+				{
+					"scope": "support.constant",
+					"settings": {
+						"foreground": "#78DCE8"
+					}
+				},
+				{
+					"scope": [
+						"storage.type.function.arrow",
+						"entity.name.tag",
+						"keyword.other.unit",
+						"keyword.operator.assignment.js",
+						"storage.modifier",
+						"keyword.control",
+						"keyword",
+						"keyword.operator.comparison.js"
+					],
+					"settings": {
+						"foreground": "#FF6188"
+					}
+				},
+				{
+					"scope": "storage.modifier.async.js",
+					"settings": {
+						"fontStyle": "italic"
+					}
+				},
+				{
+					"scope": ["variable.language.this.js", "variable.language.super.js"],
+					"settings": {
+						"foreground": "#C1C0CC"
+					}
+				},
+				{
+					"scope": "variable.parameter.js",
+					"settings": {
+						"foreground": "#FC9867",
+						"fontStyle": "italic"
+					}
+				},
+				{
+					"scope": "entity.other.inherited-class.js",
+					"settings": {
+						"foreground": "#FFCB6B"
+					}
+				}
+			]
+		}
+	},
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.colorDecorators": true,
+	"tailwindCSS.includeLanguages": {
+		"javascript": "javascriptreact",
+		"html": "html",
+		"vue": "vue"
+	},
+	"tailwindCSS.showPixelEquivalents": true,
+	"git.enabled": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"terminal.integrated.tabs.enabled": true,
+	"editor.colorDecorators": false,
+	"editor.tabCompletion": "on",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"workbench.preferredHighContrastColorTheme": "Monokai Pro",
+	"explorer.openEditors.visible": 0,
+	"editor.detectIndentation": false,
+	"prettier.useTabs": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"[Monokai Pro]": {
+			"editorBracketHighlight.foreground2": "#DA70D6",
+			"editorBracketHighlight.foreground1": "#FFC0CB",
+			"editorBracketHighlight.foreground3": "#87cefa",
+			"editorBracketHighlight.foreground5": "#DA70D6",
+			"editorBracketHighlight.foreground4": "#FFC0CB",
+			"editorBracketHighlight.foreground6": "#87cefa",
+			"editor.background": "#212121",
+			"editorGutter.background": "#212121",
+			"sideBar.background": "#1a1a1a",
+			"tab.activeBorder": "#80cbc4",
+			"tab.inactiveBackground": "#212121",
+			"tab.activeBackground": "#212121",
+			"tab.border": "#212121",
+			"tab.activeForeground": "#ffffff",
+			"tab.hoverBackground": "#212121",
+			"editorGroupHeader.tabsBackground": "#212121",
+			"terminal.background": "#1a1a1a",
+			"panel.background": "#1a1a1a",
+			"statusBar.background": "#1a1a1a",
+			"sideBarSectionHeader.background": "#1a1a1a",
+			"editorWidget.background": "#1a1a1a",
+			"input.background": "#212121",
+			"titleBar.activeBackground": "#1a1a1a"
+		},
+		"[Community Material Theme Darker High Contrast]": {
+			"editorBracketHighlight.foreground1": "#FFC0CB",
+			"editorBracketHighlight.foreground2": "#DA70D6",
+			"editorBracketHighlight.foreground3": "#87cefa",
+			"editorBracketHighlight.foreground4": "#FFC0CB",
+			"editorBracketHighlight.foreground5": "#DA70D6",
+			"editorBracketHighlight.foreground6": "#87cefa"
+		}
+	},
+	"editor.guides.bracketPairs": true,
+	"workbench.colorTheme": "Monokai Pro",
+	"javascript.preferences.jsxAttributeCompletionStyle": "none",
+	"auto-rename-tag.activationOnLanguage": ["javascript", "javascriptreact", "html"],
+	"javascript.suggest.paths": false,
+	"typescript.suggest.paths": false,
+	"editor.wordWrap": "on",
+	"html.autoCreateQuotes": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"window.menuBarVisibility": "compact",
+	"svg.preview.boundingBox": false,
+	"svg.preview.transparencyGrid": false,
+	"workbench.editor.enablePreview": false,
+	"svg.preview.autoShow": true,
+	"update.mode": "manual",
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+	"workbench.experimental.settingsProfiles.enabled": true,
+	"editor.inlineSuggest.enabled": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"reactSnippets.settings.importReactOnTop": false,
+	"prettier.printWidth": 100
+}
